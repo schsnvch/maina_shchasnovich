@@ -1,0 +1,41 @@
+# site settings
+
+title: Hanna Barysava
+description: Hi! This is the place where you can find out about my experience and my interests
+taglong: Site Reliability/DevOps
+url: "https://hannabarysava.github.io"
+github: "https://github.com/hannabarysava"
+baseurl: ""
+linkedin: "https://www.linkedin.com/in/hannabarysava/"
+permalink: pretty
+repo: https://github.com/hannabarysava/hannabarysava.github.io
+
+# author settings
+
+author:
+  name: Hanna Barysava
+  email: hanna.barysava94@gmail.com
+photo: /assets/Portrait_Hanna.jpg
+
+# build settings
+
+exclude:
+  - LICENSE
+  - README.md
+
+sass:
+  sass_dir: _sass
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
